@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>AD</title>
+<style>
+body,p{margin:0;padding:0}
+a,img{border:none}
+#fout-adinfo-wrapper{position:absolute;top:0px;right:0px;opacity:1;padding:0;margin:0;width:120px}
+#fout-adinfo{position:absolute;top:0px;right:0px;color:#000;padding:0;margin:0;height:15px}
+#fout-adinfo-icon{margin:0;padding:0;display:block;float:left;height:15px;width:19px}
+#fout-adinfo a, #fout-adinfo a:visited, #fout-adinfo a:hover{text-decoration:none;border:none;color:#000;margin:0;padding:0;height:15px}
+#fout-adinfo-sentence{background-color:#fff;opacity:0.7;filter:alpha(opacity=70);-moz-opacity:0.7;margin:0;padding:0;font-family:sans-serif;font-size:8px;float:left;height:15px;width:71px;line-height:15px;display:none}
+.fout-adinfo-expand{width:100px !important;height:30px}
+.fout-adinfo-close{width:30px !important;height:30px}
+#fout-admute{background-color:#fff;opacity:0.7;filter:alpha(opacity=70);-moz-opacity:0.7;height:15px;display:none;cursor:pointer;float:left}
+#fout-admute:hover{background-color:#ddd}
+#fout-admute-selection{font-family:sans-serif;position:absolute;top:15px;right:0px;display:none;font-size:10px;background-color:#fff;color:#000}
+#fout-admute-selection ul{list-style-type:none;margin:0;padding:0;border:solid 1px #000;width:12em}
+#fout-admute-selection li{padding:0 2px}
+#fout-admute-selection a,#fout-admute-selection a:visited{color:#000;text-decoration:none;display:block}
+#fout-admute-selection li:hover,#fout-admute-selection a:hover{background-color:#5C82C8;color:#fff}
+#fout-admute-questionnaire,#fout-admute-done{width:100%;height:100%;background-color:#fff;color:#555;position:absolute;top:0;left:0;display:none;z-index:-10000;font-family:sans-serif;font-size:10px}
+#fout-admute-questionnaire{border:solid 1px #999;padding:1em}
+#fout-admute-questionnaire h3,#fout-admute-done h3{margin:0 0 0.5em;font-size:1.17em;font-weight:bold}
+#fout-admute-questionnaire ul{list-style-type:none;margin:1em 0;padding: 0px}
+#fout-admute-questionnaire li label{cursor: pointer}
+#fout-admute-undo{text-decoration:underline;color:#5C82C8;cursor:pointer}
+#fout-admute-done{background-color:#FFEBE2;border:solid 1px #F3B3A7}
+#fout-admute-done div{text-align: center;position:absolute;top:50%;width:100%;margin-top:-1em}
+</style>
+<script type="text/javascript">
+<!--
+function is_smartphone () {
+    var useragents = [
+        'iPhone',         // Apple iPhone
+        'iPod',           // Apple iPod touch
+        'iPad',           // Apple iPad
+        'Android',        // 1.5+ Android
+        'dream',          // Pre 1.5 Android
+        'CUPCAKE',        // 1.5+ Android
+        'blackberry',     // Storm
+        'webOS',          // Palm Pre Experimental
+        'incognito',      // Other iPhone browser
+        'webmate',        // Other iPhone browser
+        's8000',          // Samsung Dolphin browser
+        'bada'            // Samsung Dolphin browser
+    ];
+    var pattern = new RegExp(useragents.join('|'),'i');
+    return pattern.test(navigator.userAgent);
+}
+function is_mobile_safari() {
+    var useragents = [
+        'iPhone', // Apple iPhone
+        'iPod',   // Apple iPod touch
+        'iPad'    // Apple iPad
+    ];
+    var pattern = new RegExp(useragents.join('|'), 'i');
+    return pattern.test(navigator.userAgent);
+}
+// -->
+</script>
+</head>
+<body>
+<p>
+
+    
+    <a href="http://click.fout.jp/967/?lpurl=http%3A%2F%2Fac.ebis.ne.jp%2Ftr_set.php%3Fargument%3DsRrG93Nh%26ai%3Dtad59acf28cd5e2a&amp;rurl=&amp;ssprd=http%3A%2F%2Fbeacon-nf.rubiconproject.com%2Fbeacon%2Frs%2Fd4cb9092-9155-4dec-b942-76aa2abcd8c0%2F0%2FlXbUnxwPv-GL-razYgVDJQ4i6M4%2F%3Furl%3D&amp;bid_id=HyEAwg9hE3recAXtwQjA3A&amp;url=http%3A%2F%2Fwww.instructables.com%2Fid%2FArduino-Oscilloscope%2F&amp;dat=QDdLrh_s8lkLWxVIIVDQ-w86w4NpMCi3RKnr46-M6N_ga1uQFKrPp64wgEXZh5S5D94W1G2yXPWtyDpy--otfZCPFPmK12FN2qWoi24RwcjJOynJiQqPUwQUH10um9oYb-aSmbdu4njhqmVLdSufjNDDwK5mSnq_7z8TwG0zAeOVf2upUt_7dig7McP-j8vQ2atCOfyZNXByrHmTug8tGFbEXKhVKl12oeebyQOuIRUQy_q2q-Z80V-Hu5FKM129a5pqbOT-HCyeeUkr3MDT9qNqznD1bbic4pATJb8Kc85w3ek_gySVVDNndCeErjq3NXpkVi1DHnJ1-BHPFr117c5L2IOP7oDQuFbW94ctjPdKzXvG9neSa28n16-B6TWlMNTX0bgDHqQ&amp;append_rd=" target="_blank" onclick="window.open('http://click.fout.jp/967/?lpurl=http%3A%2F%2Fac.ebis.ne.jp%2Ftr_set.php%3Fargument%3DsRrG93Nh%26ai%3Dtad59acf28cd5e2a&amp;rurl=&amp;ssprd=http%3A%2F%2Fbeacon-nf.rubiconproject.com%2Fbeacon%2Frs%2Fd4cb9092-9155-4dec-b942-76aa2abcd8c0%2F0%2FlXbUnxwPv-GL-razYgVDJQ4i6M4%2F%3Furl%3D&amp;bid_id=HyEAwg9hE3recAXtwQjA3A&amp;url=http%3A%2F%2Fwww.instructables.com%2Fid%2FArduino-Oscilloscope%2F&amp;dat=QDdLrh_s8lkLWxVIIVDQ-w86w4NpMCi3RKnr46-M6N_ga1uQFKrPp64wgEXZh5S5D94W1G2yXPWtyDpy--otfZCPFPmK12FN2qWoi24RwcjJOynJiQqPUwQUH10um9oYb-aSmbdu4njhqmVLdSufjNDDwK5mSnq_7z8TwG0zAeOVf2upUt_7dig7McP-j8vQ2atCOfyZNXByrHmTug8tGFbEXKhVKl12oeebyQOuIRUQy_q2q-Z80V-Hu5FKM129a5pqbOT-HCyeeUkr3MDT9qNqznD1bbic4pATJb8Kc85w3ek_gySVVDNndCeErjq3NXpkVi1DHnJ1-BHPFr117c5L2IOP7oDQuFbW94ctjPdKzXvG9neSa28n16-B6TWlMNTX0bgDHqQ&amp;append_rd=', '_blank');return false" id="fout-ad">
+    
+
+  
+  <img src="a_data/de3a7484248cdbbdb57f654039872d0a859067d8" alt="" width="728" height="90">
+  
+</a>
+</p>
+
+
+
+<div id="fout-adinfo-wrapper"><div id="fout-adinfo"><a href="http://js.fout.jp/info/privacy.html" target="_blank" onmouseover="document.getElementById('fout-adinfo-sentence').style.display='block';" onmouseout="document.getElementById('fout-adinfo-sentence').style.display='none';"><img id="fout-adinfo-icon" alt="info" src="a_data/info_g.png" border="0"><img id="fout-adinfo-sentence" alt="About Privacy" src="a_data/ap.png" border="0"></a><img src="a_data/c_g.png" alt="admute" id="fout-admute"></div></div>
+
+<script type="text/javascript">
+<!--
+if (is_smartphone()) {
+    !function() {
+        var protocol = (document.location.protocol === 'https:') ? 'https://' : 'http://';
+        var domscript = document.createElement('script');
+        domscript.src = protocol + 'js.fout.jp/sp_optout.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(domscript, s);
+    }();
+}
+// -->
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+    var _fout_js_host   = (("https:" == document.location.protocol) ? "https://" : "http://") + 'js.fout.jp';
+    
+    document.write(unescape("%3Ciframe src='") + _fout_js_host + "/beacon.html?from=ad" + unescape("' width='1' height='1' style='display:none' frameborder='0'%3E%3C/iframe%3E"));
+// -->
+</script><iframe src="a_data/beacon.html" style="display:none" width="1" height="1" frameborder="0"></iframe>
+
+<img src="a_data/imp.php" width="1" height="1">
+
+
+
+
+
+
+
+
+
+
+</body></html>

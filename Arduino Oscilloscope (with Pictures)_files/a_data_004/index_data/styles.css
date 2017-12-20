@@ -1,0 +1,269 @@
+#bg,
+#logo,
+#product_logo,
+.product-icon {
+    background-size: contain
+}
+
+#cta_arrow,
+#cta_text,
+#video_container {
+    position: absolute
+}
+
+#bg,
+.no-repeat {
+    background-repeat: no-repeat
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+html {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,
+td,
+th {
+    text-align: left;
+    font-weight: 400;
+    vertical-align: middle
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: "";
+    content: none
+}
+
+a img {
+    border: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+@font-face {
+    font-family: ProximaBold;
+    src: url(https://s0.2mdn.net/creatives/assets/2313546/ProximaNova-Bold.eot) format('embedded-opentype');
+    src: url(https://s0.2mdn.net/creatives/assets/2313546/ProximaNova-Bold.ttf) format('ttf');
+    src: url(https://s0.2mdn.net/creatives/assets/2313546/ProximaNova-Bold.otf) format('otf');
+    src: url(https://s0.2mdn.net/creatives/assets/2313546/ProximaNova-Bold.woff) format('woff');
+    src: url(https://s0.2mdn.net/creatives/assets/2313546/ProximaNova-Bold.woff2) format('woff2')
+}
+
+*,
+:after,
+:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#bg,
+#bg-container,
+#click_through,
+#cta,
+#f1_copy1,
+#f2_copy1,
+#f3_copy1,
+#f4_copy1,
+#logo,
+#product_logo,
+#wrapper,
+.abs-pos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+    overflow: hidden
+}
+
+#cta,
+#wrapper {
+    position: relative
+}
+
+#bg {
+    background-color: #0e0e0e;
+    background-image: url(bg.jpg);
+    transform: scale3d(.9, .9, 1) translateX(-200px) translateY(-200px);
+    width: 300px;
+    height: 250px;
+}
+
+#logo {
+    opacity: 1;
+    background-image: url(logos.png)
+}
+
+#wrapper {
+    visibility: hidden
+}
+
+#wrapper.show {
+    visibility: visible
+}
+
+
+/*#click_through {
+  background-image: url('2.png');
+  opacity: .5;
+  background-size: cover;
+}*/
+
+#click_through {
+    z-index: 999;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #000
+}
+
+#f1_copy1 {
+    background-image: url(edit.png)
+}
+
+#f2_copy1 {
+    background-image: url(video.png)
+}
+
+#f3_copy1 {
+    background-image: url(voice.png)
+}
+
+#cta {
+    color: #fff;
+    font-family: ProximaBold, Helvetica, Arial, sans-serif;
+    font-size: 10.7px
+}
+
+#cta_text {
+    text-transform: uppercase;
+    bottom: 8px;
+    left: 21px;
+    letter-spacing: .5pt
+}
+
+#cta_arrow {
+    width: 12px;
+    height: auto;
+    right: 188px;
+    bottom: 8.5px
+}
